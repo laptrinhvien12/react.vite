@@ -1,12 +1,15 @@
  import React from "react";
- import UseInfor from "./UseInfor";
- class MyComponent extends React.Component{
-    render(){
-        return(
-            <div>
-                <UseInfor/>
-            </div>
-        );
+
+ const MyComponent = () => {
+    const hoidanit ={
+        name : "son",
+        age : 25
     }
+    return(
+        <>
+        <div>{hoidanit.name} hoi dan it</div>
+        </>
+    )
  }
+
  export default MyComponent;
